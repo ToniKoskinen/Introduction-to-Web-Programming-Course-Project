@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+.map {
+    height: 70vh;
+    float: left;
+    width: 400px;
+}
+.chart {
+   width: 800px;
+    float: left;
+    
+}
+.slidecontainer {
+    width: 400px;
+}
+
+.slider {
+
+    appearance: none;
+    width: 400px;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: 0.2s;
+    
+}
+
+.slider:hover {
+    opacity: 1;
+}
+@media only screen and (max-width: 800px) {
+    .slidecontainer {width: 100%;}
+    .slider {width: 100%;}
+    .map{ width: 100%;}
+    .chart{width: 100%;}
+    .chart-legend{width: 100%;}
+    
+    
+}
